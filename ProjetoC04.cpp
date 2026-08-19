@@ -81,29 +81,32 @@ int main()
   {
     case 1:
       insert();
-    break;
+    	break;
     case 2:
       cadastrar();
-    break;
+    	break;
     case 3:
       buscar();
-    break;  
+    	break;  
     case 4:
       verificar();
-    break;
+    	break;
     case 5:
       listarA();
-    break;
+    	break;
     case 6:
       listarR();
-    break;
+	    break;
     case 7:
       contar();
-    break;
+    	break;
     case 8:
       remover();
-    break;
-
+    	break;
+	default:
+		cout << "Entrada invalida!" << endl; 
+		break:
+	  
   }
 
   return 0;  
