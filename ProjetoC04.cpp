@@ -8,14 +8,6 @@ using namespace std;
   //Emily Horrana Lima Rodrigues Armando 787
   //Vinicius Oliveira Braga 743
 
-struct item
-{
-  string nome; 
-  string tipo;
-  int raridade;
-  string magia;
-};
-
 int insert()
 {
   cout << "Funcionalidade em construção" << endl;
@@ -59,7 +51,6 @@ int remover()
 
 int main()
 {  
-  string item[100];
   int opcao;
   
 	cout << "=================================================" << endl;
@@ -106,9 +97,6 @@ int main()
 	default:
 		cout << "Entrada invalida!" << endl; 
 		break:
-	  
   }
-
   return 0;  
 }
- 
